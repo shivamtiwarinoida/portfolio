@@ -1,0 +1,44 @@
+.nav-bar{
+    background-color: rgb(19, 235, 26);
+    color: black;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-bar .logo{
+    font-weight: 200;
+    color:white;
+    font-style: italic;
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+.nav-bar .logo:hover{
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-bar .list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-bar .list .ele{
+    margin-left: 1rem;
+    margin-right: 1.1rem;
+    padding: 0.8rem;
+}
+
+.nav-bar .list .ele:hover{
+    background-color: rgb(115, 255, 120);
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
